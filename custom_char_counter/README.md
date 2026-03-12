@@ -65,5 +65,8 @@ Tell Siebel to load the script for your specific Applet:
 ---
 
 ## 🧪 Validação e Ajustes / Validation & Adjustments
-*   **Teste / Test:** Limpe o cache (`Ctrl + F5`). O marcador `[#]` deve sumir e dar lugar ao contador cinza. / Clear browser cache (`Ctrl + F5`). The `[#]` marker should disappear and be replaced by the gray counter.
-*   **Customização / Customization:** Edite as variáveis na seção `CUSTOMIZAÇÃO` no topo do arquivo JS para alterar cores ou fontes. / Edit the variables in the `CUSTOMIZATION` section at the top of the JS file to change colors or fonts.
+*   **Teste / Test:** Limpe o cache (`Ctrl + F5`). O marcador `[#]` não deve aparecer na legenda do campo e o contador de caracteres aparecer logo abaixo do campo. / *Clear browser cache (`Ctrl + F5`). The `[#]` marker shouldn't appear in the caption and the char counter should be displayed bottom the field.*
+*   **Customização / Customization:** Edite as variáveis na seção `CUSTOMIZAÇÃO` no topo do arquivo JS para alterar cores ou fontes. / *Edit the variables in the `CUSTOMIZAÇÃO` section at the top of the JS file to change colors or fonts.*
+
+### Resultado
+![Exemplo contador de caracteres](char_counter_example.png)
