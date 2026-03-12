@@ -14,14 +14,14 @@ Adiciona um contador dinâmico (ex: `120 / 2000`) a campos **Text** e **TextArea
 ### 🛠️ Configuração
 
 #### 1. Servidor (Arquivos)
-*   **Arquivo:** [custom_char_counter_PR.js](./custom_char_counter_PR.js)
-*   **Caminho:** `/scripts/siebel/custom/`
+*   **Arquivo:** Faça download do arquivo [custom_char_counter_PR.js](./custom_char_counter_PR.js)
+*   **Caminho:** Coloque o arquivo no servidor do Siebel na pasta de scripts customizados, exemplo: `/scripts/siebel/custom/`
 *   **Ação:** Certifique-se de que o arquivo tenha permissões de leitura para o usuário `siebel`.
 
 #### 2. Web Tools (Repositório)
 A ativação é feita via repositório, sem alterar código para cada novo campo:
 1.  Abra a **Applet** desejada.
-2.  No **Control**, localize a propriedade **Caption** (ou Label).
+2.  No **Control**, localize a propriedade **Legenda** (ou Label).
 3.  Adicione o marcador `[#]` ao final do texto (Exemplo: `Descrição[#]`).
 4.  Faça o **Deliver** das alterações.
 
